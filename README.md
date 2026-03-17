@@ -8,6 +8,10 @@ RS School is a free, community-based online education program run by The Rolling
 
 ## Projects
 
+- **Portfolio Website** — [View Project](https://rolling-scopes-school.github.io/ulyana0siadziuk-JSFE2025Q3/portfolio/)
+- **Virtual Music Kit** — [View Project](https://rolling-scopes-school.github.io/ulyana0siadziuk-JSFE2025Q3/virtual-music-kit/)
+- **Museum Website (Louvre)** — [View Project](https://rolling-scopes-school.github.io/ulyana0siadziuk-JSFEPRESCHOOL2025Q2/museum/)
+
 ### 1. Portfolio Website
 
 #### 🔗 Live Demo
