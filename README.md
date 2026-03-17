@@ -17,7 +17,7 @@ RS School is a free, community-based online education program run by The Rolling
 A fully responsive photographer portfolio website with interactive features and modern UI/UX implementation.
 
 
-<img width="2160" height="1657" alt="portfolio" src="https://github.com/user-attachments/assets/2c0a0573-ce53-4b6c-be33-cd7b51f51041" />
+<img width="500" height="350" alt="portfolio" src="https://github.com/user-attachments/assets/2c0a0573-ce53-4b6c-be33-cd7b51f51041" />
 
 
 #### 📱 Responsive Design
@@ -98,12 +98,66 @@ The page consists of 7 main sections matching the Figma design:
 
 ---
 
-### More Projects Coming Soon...
+### 2. Virtual Music Kit
 
-*This repository will be updated with additional projects from the RS School course.*
+#### 🔗 Live Demo
+[View Virtual Music Kit](https://rolling-scopes-school.github.io/ulyana0siadziuk-JSFE2025Q3/virtual-music-kit/)
+
+
+<img width="500" height="350" alt="virtual-music-kit" src="https://github.com/user-attachments/assets/2bd5ebf5-fc42-42ab-b156-5839f1aebe06" />
+
+
+An interactive sound application that simulates a musical instrument (piano) where users can play sounds live.
+
+#### 🎹 Concept & Visual Design
+- **Instrument**: Piano simulator with 12 distinct notes (C, C#, D, D#, E, F, F#, G, G#, A, A#, B)
+- **Visual Layout**: Creative piano-style interface with black and white keys
+- **Responsive Design**: Fully adaptive for desktop (1440px+), tablet (768px-1440px), and mobile (360px-768px)
+
+#### 🎼 Core Functionality
+- **Sound Mapping**: Each of the 12 piano notes mapped to a unique English letter key:
+  - **White keys**: C (A), D (S), E (D), F (F), G (G), A (H), B (J)
+  - **Black keys**: C# (W), D# (E), F# (T), G# (Y), A# (U)
+- **Visual Feedback**: Keys displayed on screen, clearly associated with their piano key
+- **Trigger Methods**: 
+  - Click on piano keys
+  - Press assigned keyboard keys
+- **Smart Input Handling**: 
+  - Sounds play regardless of keyboard layout (RU/EN) or Caps Lock state
+  - Only processes first key when multiple keys pressed simultaneously
+
+#### 🔧 Key Remapping System
+- **Edit Feature**: Edit button/icon next to each key
+- **Input Interface**: 
+  - Click edit → input field appears with current key pre-filled
+  - Type new key → press Enter to confirm
+  - Input disappears after confirmation
+- **Conflict Prevention**: System prevents assigning same key to multiple sounds
+- **Temporary Changes**: Remapping resets after page refresh
+
+#### 🎨 Visual States
+Each playable element has three distinct visual states:
+- **Default**: Normal appearance
+- **Hover**: Visual feedback when mouse hovers
+- **Active**: Triggered state during sound playback (key press or click)
+
+#### 🧩 DOM Implementation
+- **Pure DOM Manipulation**: 
+  - Initial `body` contains only script tag
+  - All elements dynamically created and managed with `createElement()`, `appendChild()`, and other DOM methods
+  - No HTML injection — complete separation of structure and content
+- **Event Handling**:
+  - Keyboard events for key presses (`keydown`)
+  - Mouse events for clicks and hover states
+  - Custom event management for application state
+
+#### 🛠️ Technologies Used
+- **DOM API**: Native document manipulation (`createElement`, `appendChild`, `querySelector`, etc.)
+- HTML5
+- CSS3 (Flexbox/Grid, animations)
+- Vanilla JavaScript (ES6+)
+- Web Audio API for sound generation
+
+
 
 ---
-
-## Connect
-
-Feel free to explore my projects and reach out for collaboration!
