@@ -163,5 +163,41 @@ Each playable element has three distinct visual states:
 - Web Audio API for sound generation
 
 
-
 ---
+
+
+### 3. Museum Website (Louvre)
+
+#### 🔗 Live Demo
+[View Museum Website](https://rolling-scopes-school.github.io/ulyana0siadziuk-JSFEPRESCHOOL2025Q2/museum/)
+
+
+<img width="500" height="350" alt="museum" src="https://github.com/user-attachments/assets/212ccfd0-2913-467b-85d9-af7b8f7445d0" />
+
+
+
+A website dedicated to the Louvre Museum, created as part of the RS School curriculum. The project demonstrates skills in layout, responsive design, and interactive elements implementation.
+
+#### 🏛️ About the Project
+The site is a landing page with information about the museum, its history, collections, and contacts. The design and structure are inspired by the official Louvre website.
+
+#### 🖼️ Implemented Sections
+- **Welcome**: Main screen with greeting, museum history slider, and section navigation
+- **Video journey**: Interactive block with video gallery and custom HTML5 video player for virtual museum tour
+- **Art gallery**: Gallery with artwork images
+- **Contacts**: Section with contact information
+
+#### 🎥 Video Player
+A custom video player with full controls is implemented in the Video journey section:
+- Play/Pause buttons
+- Progress bar
+- Volume control
+- Fullscreen mode
+- Keyboard controls
+
+#### 🛠️ Technologies Used
+- **Responsive Layout**: Proper display on desktops, tablets, and mobile devices
+- **HTML5 & CSS3**: Semantic markup, Flexbox/Grid, animations
+- **JavaScript**: Custom video player, interactive elements
+- **DOM Manipulation**: Dynamic element creation and management
+
